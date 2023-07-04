@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to left bottom, rgb(150, 216, 238), #03747c);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+    flex-direction: column;
+}
+
+.conatiner {
+
+    background-color: rgba(255, 255, 255, .3);
+    margin: 80px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    width: 85%;
+    text-align: center;
+    color: #000000;
+}
+
+.heading {
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 3px rgb(113, 113, 113);
+    letter-spacing: 1px;
+}
+
+.jocks {
+
+    font-size: 20px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+
+.btn {
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #1db1bb;
+    border-color: rgba(#a9e6ea, #ade6ea, #a2dee2, .6);
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+
+    box-shadow: 0 2px 4px black;
+}
+
+footer {
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(255, 255, 255, .2);
+    height: auto;
+    width: 100%;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.footer>h1 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer>p {
+    max-width: 310px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.social li {
+    margin: 0 20px;
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+}
+
+.social a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.social a:hover i {
+    color: GREEN;
+}
+
+.footer-bootem {
+    background: black;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bootem p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bootem span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 500;
+}
